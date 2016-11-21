@@ -42,5 +42,5 @@ for a in df.Node1.unique():
 rank = sorted(centrality.iteritems(), key=operator.itemgetter(1),reverse=True)
 
 for value in rank:
-    print 'The node ' + str(value[0]) + ' has the closeness centrality equal to ' + str(value[1])
+    print 'The node ' + str(value[0]) + ' has closeness centrality equal to ' + str(value[1])
 
